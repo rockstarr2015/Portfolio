@@ -10,33 +10,25 @@
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
 
-
-
     <style>
+
+        .text1
+        {
+            color: white;
+        }
 
 
 
         .jumbotron
         {
-            height: 100vh;
+            background-image: url("background_Image1.jpg");
+            padding-top: 8%;
+            padding-bottom: 8%;
             margin-top: 0px;
             text-align: center;
             margin-bottom: 0px;
+            background-size: 100% 100%;
 
-        }
-
-        .navbar-brand
-        {
-            font-family: "Arial Black";
-            font-weight: bold;
-            font-size-adjust: 0.6;
-
-
-        }
-
-        .navbar
-        {
-            margin-bottom: 0;
         }
 
         #footer
@@ -60,9 +52,35 @@
             color: gainsboro;
         }
 
+        .navbar-brand
+        {
+
+            font-weight: bold;
+            font-size-adjust: 0.6;
+
+        }
+
+        .navbar
+        {
+            margin-bottom: 0;
+            -webkit-box-shadow: 0 8px 6px -6px #999;
+            -moz-box-shadow: 0 8px 6px -6px #999;
+            box-shadow: 0 8px 6px -6px #999;
+
+        }
 
 
 
+
+        .navbar .container .navbar-header a
+        {
+            color: black;
+        }
+
+        .navbar .container .collapse.navbar-collapse.navbar-right ul li a
+        {
+            color: black;
+        }
 
 
 
@@ -72,7 +90,7 @@
 
 <div class="container-flouid" id="first">
 
-<nav class="navbar navbar-inverse fixed-top">
+<nav class="navbar navbar-default">
     <div class="container">
 
         <div class="navbar-header">
@@ -96,19 +114,27 @@
     </div>
 </nav><!-- end of the nav-->
 
+
+
     <div class="jumbotron" id="f">
+
+
         <div class="container">
 
-            <h1 class=" animated bounceInLeft" style="color: orange">Hii I am Aniket.</h1>
-            <p>I am developer form boston.I am graduate student in Computer and Information Science from Uiversity of Massachussetts Dartmouth. </p>
-            <p>Yes I make web applications also.I am front end enthusiatic. </p>
-            <p> </p>
-            <p>Want to see my work...</p>
+            <h1 class=" animated bounceInLeft text1" style="color: white" id="MainHeading">Hii I am Aniket.</h1>
+            <h3 class="text1">I am developer form boston.I am graduate student in Computer and Information Science from University of Massachussetts Dartmouth. </h3>
+            <h3 class="text1">Yes I make web applications also.I am front end enthusiatic. </h3>
+
+            <h3>Want to see my work...</h3>
+
+
 
 
         </div>
+    </div><!--end of jumbotron-->
 
-    </div>
+
+
 
 </div>
 
@@ -159,7 +185,6 @@
     </div><!--end of the container-->
 
 </div><!--end of the container-fluid-->
-
 
 
 </body>

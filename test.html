@@ -10,10 +10,30 @@
 </head>
 <body>
 <div class="container">
-    <h1>Hello There............</h1>
-    <i class="fa fa-facebook"></i>
+    <h1 id="delayedText1" style="visibility: hidden">Hello There............</h1>
+    <h2 id="delayedText2" style="visibility: hidden">My name is Aniket </h2>
+    <h3 id="delayedText3" style="visibility: hidden">I am 21 years old...</h3>
+    <h4 id="delayedText4" style="visibility: hidden">What is your name.............?</h4>
+
 </div>
 
+<script>
+    window.onload = function(){
+
+        setTimeout("showText('delayedText1')",2*1000);
+        setTimeout("showText('delayedText2')",3*1000);
+        setTimeout("showText('delayedText3')",4*1000);
+        setTimeout("showText('delayedText4')",5*1000);
+
+
+    };
+
+    function showText(x)
+    {
+        //console.log(x);
+        document.getElementById(x).style.visibility = "visible";
+    }
+</script>
 
 
 </body>

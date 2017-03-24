@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Aniket</title>
+    <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <link rel="stylesheet" href="stylesheets/HomePage_css.css">
-    <link rel="stylesheet" href="animate.min.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+
+
     <style>
 
 
@@ -22,19 +25,7 @@
 
         }
 
-        .navbar-brand
-        {
-            font-family: "Arial Black";
-            font-weight: bold;
-            font-size-adjust: 0.6;
 
-
-        }
-
-        .navbar
-        {
-            margin-bottom: 0;
-        }
 
         #footer
         {
@@ -50,12 +41,38 @@
         a,a:visited
         {
             color: darkgray;
-
         }
 
         a:hover
         {
             color: gainsboro;
+        }
+
+        .navbar-brand
+        {
+
+            font-weight: bold;
+            font-size-adjust: 0.6;
+
+        }
+
+        .navbar
+        {
+            margin-bottom: 0;
+            -webkit-box-shadow: 0 8px 6px -6px #999;
+            -moz-box-shadow: 0 8px 6px -6px #999;
+            box-shadow: 0 8px 6px -6px #999;
+
+        }
+
+        .navbar .container .navbar-header a
+        {
+            color: black;
+        }
+
+        .navbar .container .collapse.navbar-collapse.navbar-right ul li a
+        {
+            color: black;
         }
 
 
@@ -68,7 +85,7 @@
 
 <div class="container-flouid" id="first">
 
-    <nav class="navbar navbar-inverse fixed-top">
+    <nav class="navbar navbar-default">
         <div class="container">
 
             <div class="navbar-header">
@@ -83,19 +100,34 @@
 
             <div class="collapse navbar-collapse navbar-right" id="bs">
                 <ul class="nav navbar-nav">
-                    <li ><a href="index.html">Home<span class="sr-only">(current)</span> </a> </li>
+                    <li><a href="index.html">Home<span class="sr-only">(current)</span> </a> </li>
                     <li><a href="About.html">About</a> </li>
                     <li><a href="Work.html">Work</a> </li>
-                    <li class="active"><a href="Contact.html">Contact</a> </li>
+                    <li  class="active"><a href="Contact.html">Contact</a> </li>
                 </ul>
             </div>
         </div>
     </nav><!-- end of the nav-->
 
+    <div class="jumbotron" id="f">
+        <div class="container">
+
+            <h1>Contact Page........</h1>
+
+
+
+        </div>
+
+    </div>
 
 </div>
 
-<h1 class=" animated hinge">Hello</h1>
+
+
+
+
+
+
 
 <!--Footer start-->
 
@@ -119,10 +151,9 @@
 
             <div class="col-sm-1">
 
-                    <a href="https://github.com/rockstarr2015">
-                        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-                    </a>
-
+                <a href="https://github.com/rockstarr2015">
+                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                </a>
             </div>
 
             <div class="col-sm-1">
