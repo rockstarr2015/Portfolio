@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap Example</title>
+    <title>AniketMore</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="C:\Users\anike\Desktop\Portfolio\font-awesome-4.7.0\css\index_css.css">
 
     <style>
+        body {
+            position: relative;
+        }
 
+        .panelImages
+        {
+            margin-bottom: 0px;
+            margin-top: 0px;
+            max-width: 100%;
+            max-height: 100%;
+        }
         #MainHeading
         {
             color: white;
@@ -36,10 +46,12 @@
             margin-bottom: 0px;
             background-size: 100% 100%;
         }
+        
+
 
         #f1
         {
-          background-color: lightblue;
+            background-color: lightblue;
         }
 
         #footer
@@ -50,7 +62,7 @@
         }
         #f2
         {
-            padding: 20px;
+            padding: 50px;
         }
 
         a,a:visited
@@ -125,6 +137,11 @@
             font-family: "Franklin Gothic Medium";
 
         }
+
+        #Skills
+        {
+            padding-top:50px;
+        }
         .s_info
         {
             padding-top:20px;
@@ -140,12 +157,58 @@
             font-family: "Avant garde";
             text-decoration: underline;
             font-weight: bold;
+            padding-top: 50px;
+
+        }
+
+        #project_info h1
+        {
+            padding-bottom: 30px;
+        }
+        .rotate90 {
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
+        #contact p
+        {
+            color: skyblue;
+            text-align: center;
+            padding-top:100px;
+            padding-bottom: 100px;
+            text-decoration: underline;
+            font-size: 50px;
+        }
+
+        #contact h4
+        {
+            color:skyblue;
+            text-align: center;
+
+
+        }
+
+        #contact .row h3
+        {
+            color:skyblue;
+            text-align: center;
+
+        }
+
+        #contact .col-sm-4
+        {
+            padding-bottom: 100px;
         }
 
 
     </style>
+
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+
 
 <div class="container-flouid" id="first">
 
@@ -158,6 +221,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.html">AniketMore</a>
         </div><!--code for the dropdown options-->
@@ -165,9 +229,10 @@
         <div class="collapse navbar-collapse navbar-right" id="bs">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span> </a> </li>
-                <li><a href="About.html">About</a> </li>
-                <li><a href="Work.html">Work</a> </li>
-                <li><a href="Contact.html">Contact</a> </li>
+                <li><a href="#f1">About</a> </li>
+                <li><a href="#Skills">Skills</a> </li>
+                <li><a href="#project_info">Work</a> </li>
+                <li><a href="#contact">Contact</a> </li>
             </ul>
         </div>
     </div>
@@ -183,7 +248,7 @@
 
             <h1 class=" animated bounceInLeft text1"  id="MainHeading">Hii I am Aniket.</h1>
             <h2 class="text1">I am developer form Boston.I am graduate student in Computer and Information Science from University of Massachusetts Dartmouth. </h2>
-            <h2 class="text1">Yes I make web applications also.I am front end enthusiastic. </h2>
+            <h2 class="text1">Yes I make web applications.I am front end enthusiastic. </h2>
         </div>
     </div><!--end of jumbotron-->
     </div>
@@ -193,6 +258,9 @@
 
 </div><!--end of container fluid-->
 
+
+
+<!--About Me information-->
 
 <div class="jumbotron" id="f1">
     <div class="container">
@@ -206,6 +274,7 @@
 
                 <h2>About Me</h2>
 
+                <img src="Optimized-IMG_0051.JPG" class="img-circle rotate90" height="200" width="210">
                 <h3>I am developer from greater Boston area. I am passionate about code, design and new technology.
                     I am passionate about full stack development.I like to experiment and learn. </h3>
 
@@ -226,7 +295,11 @@
 
 </div>
 
-<div class="container">
+
+<!--skills-->
+
+<div class="parallax">
+<div class="container" id="Skills">
     <div class="row">
         <div class="col-sm-3">
 
@@ -238,14 +311,14 @@
 
             <div class="s_info">
             <h2>Web</h2>
-            <h4>SASS,ESMA Script 6</h4>
+            <h4>SASS,ESMA Script 6,bootstrap 3</h4>
             <h4>Angular2,JQuery,D3.js</h4>
             </div>
 
 
             <div class="s_info">
             <h2>Back-end</h2>
-            <h4>Node.js,Pyhon</h4>
+            <h4>Node.js,Python</h4>
             </div>
 
             <div class="s_info">
@@ -255,12 +328,12 @@
 
             <div class="s_info">
             <h2>Other</h2>
-            <h4>Gulp,Terting</h4>
+            <h4>Gulp,NPM</h4>
             </div>
 
             <div class="s_info">
             <h2>I use</h2>
-            <h4>Webstorm and Notepad++</h4>
+            <h4>Webstorm, Notepad++, Eclipse, Git</h4>
             </div>
 
         </div><!--end of col-sm-6-->
@@ -271,30 +344,108 @@
 
     </div><!-- end of row-->
 </div><!--end of container -->
-
-
-
-<div class="jumbotron">
-    <div class="contianer" id="project_info">
-        <h1>Work</h1>
-    </div>
 </div>
 
 
+<!--work-->
+
+<div class="jumbotron">
+    <div class="container" id="project_info">
+        <h1>Work</h1>
+
+        <div class="row">
+            <div class="col-sm-2"></div>
+
+            <div class="col-sm-4">
+                <a href="#">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Portfolio</div>
+                    <div class="panel-body">
+                        <img class="img-responsive" src="resource/PortfolioSite.png" class="img-rounded panelImages"  >
+                    </div>
+                </div>
+                    </a>
 
 
 
+            </div>
+            <div class="col-sm-4">
+                <a href="https://github.com/rockstarr2015/Github-application">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Angular2 GitHub App</div>
+                    <div class="panel-body">
+                        <img class="img-responsive" src="resource/GithubApp.png" class="img-rounded panelImages" >
+                    </div>
+                </div>
+                    </a>
 
 
 
+            </div>
+            <div class="col-sm-2">
+
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-2">
+
+            </div>
+
+            <div class="col-sm-4">
+                <a href="https://github.com/rockstarr2015/Data-visualization-of-Improve-water-source-access-from-1995-to-2015-in-world">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Water Source Access Visualization</div>
+                    <div class="panel-body">
+                        <img class="img-responsive" src="resource/water_visualization.png" class="img-rounded panelImages" >
+                    </div>
+                </div>
+                    </a>
+
+
+            </div>
+            <div class="col-sm-4">
+
+                <a href="https://github.com/rockstarr2015/Data-visualization-D3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Medical Data Visualization</div>
+                    <div class="panel-body" id="Image1">
+                        <img class="img-responsive" src="resource/Medical_visualization.png" class="img-rounded panelImages" >
+                    </div>
+                </div>
+                    </a>
+
+
+            </div>
+
+            <div class="col-sm-2">
+
+            </div>
+        </div>
 
 
 
+    </div><!--end of container-->
+</div><!--end of the jumbotron-->
 
+<div class="container" id="contact">
+    <p>Want to work together?</p>
 
-
-
-
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4">
+            <h3>Email</h3>
+            <h3>Aniketmore.more93@gmail.com</h3>
+        </div>
+        <div class="col-sm-4">
+            <h3>Phone.</h3>
+            <h3>+1(774) 301-9977</h3>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+</div>
 
 
 
