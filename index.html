@@ -12,23 +12,34 @@
 
     <style>
 
+        #MainHeading
+        {
+            color: white;
+            font-family: "Arial Black";
+        }
+
         .text1
         {
             color: white;
         }
 
-
-
-        .jumbotron
+        .parallax #f
         {
             background-image: url("background_Image1.jpg");
-            padding-top: 8%;
-            padding-bottom: 8%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding-top: 15%;
+            padding-bottom: 15%;
             margin-top: 0px;
             text-align: center;
             margin-bottom: 0px;
             background-size: 100% 100%;
+        }
 
+        #f1
+        {
+          background-color: lightblue;
         }
 
         #footer
@@ -84,13 +95,61 @@
 
 
 
+        #AboutMeInfo
+        {
+            color: white;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #AboutMeInfo h2
+        {
+            text-decoration: underline;
+            padding-bottom: 30px;
+        }
+
+        #AboutMeInfo h3
+        {
+            padding-top:20px;
+            padding-bottom: 20px;
+            font-family: Candara;
+        }
+
+        #skill_info h1
+        {
+            text-align: center;
+            font-weight: bold;
+            color:black;
+            text-decoration: underline;
+            padding-bottom: 20px;
+            font-family: "Franklin Gothic Medium";
+
+        }
+        .s_info
+        {
+            padding-top:20px;
+            padding-bottom:20px;
+            text-align: center;
+            font-family: "Lucida Bright";
+        }
+
+        #project_info
+        {
+
+            text-align: center;
+            font-family: "Avant garde";
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+
     </style>
 </head>
 <body>
 
 <div class="container-flouid" id="first">
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
 
         <div class="navbar-header">
@@ -115,28 +174,123 @@
 </nav><!-- end of the nav-->
 
 
+    <div class="parallax">
 
     <div class="jumbotron" id="f">
 
 
         <div class="container">
 
-            <h1 class=" animated bounceInLeft text1" style="color: white" id="MainHeading">Hii I am Aniket.</h1>
-            <h3 class="text1">I am developer form boston.I am graduate student in Computer and Information Science from University of Massachussetts Dartmouth. </h3>
-            <h3 class="text1">Yes I make web applications also.I am front end enthusiatic. </h3>
-
-            <h3>Want to see my work...</h3>
-
-
-
-
+            <h1 class=" animated bounceInLeft text1"  id="MainHeading">Hii I am Aniket.</h1>
+            <h2 class="text1">I am developer form Boston.I am graduate student in Computer and Information Science from University of Massachusetts Dartmouth. </h2>
+            <h2 class="text1">Yes I make web applications also.I am front end enthusiastic. </h2>
         </div>
     </div><!--end of jumbotron-->
+    </div>
 
 
 
+
+</div><!--end of container fluid-->
+
+
+<div class="jumbotron" id="f1">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+
+            </div><!--end of col-sm-3-->
+
+
+            <div class="col-sm-6" id="AboutMeInfo">
+
+                <h2>About Me</h2>
+
+                <h3>I am developer from greater Boston area. I am passionate about code, design and new technology.
+                    I am passionate about full stack development.I like to experiment and learn. </h3>
+
+
+                <h3>I completed my bachelors from University of Mumbai. Currently I am student of computer and information science in UMASS Dartmouth.</h3>
+
+                <h3>I like to make web application and data visualization. </h3>
+
+                <h3>When I am not working, you will find me in gym, playing computer games or reading.</h3>
+
+            </div><!--end of col-sm-6-->
+
+            <div class="col-sm-3">
+
+            </div><!--end of col-sm-3-->
+        </div>
+    </div>
 
 </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+
+        </div><!--end of col-sm-3-->
+
+        <div class="col-sm-6" id="skill_info">
+
+            <h1>Skills</h1>
+
+            <div class="s_info">
+            <h2>Web</h2>
+            <h4>SASS,ESMA Script 6</h4>
+            <h4>Angular2,JQuery,D3.js</h4>
+            </div>
+
+
+            <div class="s_info">
+            <h2>Back-end</h2>
+            <h4>Node.js,Pyhon</h4>
+            </div>
+
+            <div class="s_info">
+                <h2>DB</h2>
+                <h4>SQL, NoSQL</h4>
+            </div>
+
+            <div class="s_info">
+            <h2>Other</h2>
+            <h4>Gulp,Terting</h4>
+            </div>
+
+            <div class="s_info">
+            <h2>I use</h2>
+            <h4>Webstorm and Notepad++</h4>
+            </div>
+
+        </div><!--end of col-sm-6-->
+
+        <div class="col-sm-3">
+
+        </div><!--end of col-sm-3-->
+
+    </div><!-- end of row-->
+</div><!--end of container -->
+
+
+
+<div class="jumbotron">
+    <div class="contianer" id="project_info">
+        <h1>Work</h1>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

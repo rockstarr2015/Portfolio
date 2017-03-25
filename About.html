@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Aniket</title>
+    <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="stylesheets/HomePage_css.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+
     <style>
 
-
-
-        .jumbotron
-        {
-            height: 100vh;
-            margin-top: 0px;
-            text-align: center;
-            margin-bottom: 0px;
-
-        }
-
+       .parallax #f
+       {
+           background-image: url("background_Image1.jpg");
+           background-attachment: fixed;
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+           min-height: 100vh;
+       }
 
         #footer
         {
@@ -74,8 +73,13 @@
             color: black;
         }
 
-
-
+        #f1 .container > h2
+        {
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            text-decoration: underline;
+        }
 
 
     </style>
@@ -84,7 +88,7 @@
 
 <div class="container-flouid" id="first">
 
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default">
         <div class="container">
 
             <div class="navbar-header">
@@ -99,22 +103,49 @@
 
             <div class="collapse navbar-collapse navbar-right" id="bs">
                 <ul class="nav navbar-nav">
-                    <li ><a href="index.html">Home<span class="sr-only">(current)</span> </a> </li>
-                    <li class="active"><a href="About.html">About</a> </li>
+                    <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span> </a> </li>
+                    <li><a href="About.html">About</a> </li>
                     <li><a href="Work.html">Work</a> </li>
                     <li><a href="Contact.html">Contact</a> </li>
                 </ul>
             </div>
         </div>
     </nav><!-- end of the nav-->
-</div>
 
-<div class="jumbotron">
-    <div class="container">
-        <h1>About page.............</h1>
+    <div class="parallax">
+        <div class="jumbotron" id="f">
+
+
+            <div class="container">
+
+                <h1 class=" animated bounceInLeft text1" style="color: white" id="MainHeading">Hii I am Aniket.</h1>
+                <h3 class="text1">I am developer form Boston.I am graduate student in Computer and Information Science from University of Massachusetts Dartmouth. </h3>
+                <h3 class="text1">Yes I make web applications also.I am front end enthusiastic. </h3>
+
+                <h3>Want to see my work...</h3>
+
+
+
+
+            </div>
+        </div><!--end of jumbotron-->
+
     </div>
 
-</div>
+    <div class="jumbotron">
+        <p>Hello world........</p>
+        <p>adfhjklcl;d</p>
+        <p>asjfidkv</p>
+        <p>faedv </p>
+        <p>wrfeuvidk</p>
+        <p>erfd</p>
+    </div>
+
+</div><!--end of container fluid-->
+
+
+
+
 
 
 
@@ -132,6 +163,7 @@
 
             </div><!--end of the col-->
 
+
             <div class="col-sm-1">
                 <a href="https://www.linkedin.com/in/aniket-more-07a80846/">
                     <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
@@ -143,10 +175,9 @@
 
             <div class="col-sm-1">
 
-                    <a href="https://github.com/rockstarr2015">
-                        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-                    </a>
-
+                <a href="https://github.com/rockstarr2015">
+                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                </a>
             </div>
 
             <div class="col-sm-1">
@@ -158,19 +189,10 @@
 
 
 
-
-
-
-
-        </div><!--end of the col-->
-
-
-
         </div>
     </div><!--end of the container-->
 
 </div><!--end of the container-fluid-->
-
 
 
 </body>
