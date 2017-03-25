@@ -1,0 +1,194 @@
+
+body {
+    position: relative;
+}
+
+.panelImages
+{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    max-width: 100%;
+    max-height: 100%;
+}
+#MainHeading
+{
+    color: white;
+    font-family: "Arial Black";
+}
+
+.text1
+{
+    color: white;
+}
+
+.parallax #f
+{
+    background-image: url("../resource/background_Image1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+    background-size: 100% 100%;
+}
+
+
+
+#f1
+{
+    background-color: lightblue;
+}
+
+#footer
+{
+    background-color: dimgray;
+    color: white;
+
+}
+#f2
+{
+    padding: 50px;
+}
+
+a,a:visited
+{
+    color: darkgray;
+}
+
+a:hover
+{
+    color: gainsboro;
+}
+
+.navbar-brand
+{
+
+    font-weight: bold;
+    font-size-adjust: 0.6;
+
+}
+
+.navbar
+{
+    margin-bottom: 0;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+}
+
+
+
+
+.navbar .container .navbar-header a
+{
+    color: black;
+}
+
+.navbar .container .collapse.navbar-collapse.navbar-right ul li a
+{
+    color: black;
+}
+
+
+
+#AboutMeInfo
+{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#AboutMeInfo h2
+{
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+
+#AboutMeInfo h3
+{
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-family: Candara;
+}
+
+#skill_info h1
+{
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    font-family: "Franklin Gothic Medium";
+
+}
+
+#Skills
+{
+    padding-top:50px;
+}
+.s_info
+{
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align: center;
+    font-family: "Lucida Bright";
+}
+
+#project_info
+{
+
+    text-align: center;
+    font-family: "Avant garde";
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 50px;
+
+}
+
+#project_info h1
+{
+    padding-bottom: 30px;
+}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+#contact p
+{
+    color: skyblue;
+    text-align: center;
+    padding-top:100px;
+    padding-bottom: 100px;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+#contact h4
+{
+    color:skyblue;
+    text-align: center;
+
+
+}
+
+#contact .row h3
+{
+    color:skyblue;
+    text-align: center;
+
+}
+
+#contact .col-sm-4
+{
+    padding-bottom: 100px;
+}
+
+
